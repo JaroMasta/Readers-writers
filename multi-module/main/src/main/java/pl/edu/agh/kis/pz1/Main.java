@@ -18,14 +18,12 @@ public class Main {
 
         // Tworzenie czytelników
         for (int i = 1; i <= numberOfReaders; i++) {
-            new Reader(library, "Czytelnik-" + i).start();
+            new Thread(new Reader(library, "Czytelnik-" + i)).start();
         }
 
         // Tworzenie pisarzy
         for (int i = 1; i <= numberOfWriters; i++) {
-            new Writer(library, "Pisarz-" + i).start();
+            new Thread(new Writer(library, "Pisarz-" + i)).start();
         }
-
-        library.start();
     }
 }
