@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="pl.edu.agh.kis.pz1.LibraryTest" time="26.558" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="pl.edu.agh.kis.pz1.LibraryTest" time="34.356" tests="4" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="sonar.projectName" value="readersWriters"/>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="sonar.login" value="sqp_48709743c15bd4df6b68e46dc18dcb5a7ee586c8"/>
-    <property name="sonar.host.url" value="http://localhost:9000"/>
     <property name="sun.jnu.encoding" value="Cp1250"/>
     <property name="java.class.path" value="C:\Users\Jarek\Desktop\Java lab\Readers-And-Writers\multi-module\main\target\test-classes;C:\Users\Jarek\Desktop\Java lab\Readers-And-Writers\multi-module\main\target\classes;C:\Users\Jarek\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.3\junit-jupiter-engine-5.11.3.jar;C:\Users\Jarek\.m2\repository\org\junit\platform\junit-platform-engine\1.11.3\junit-platform-engine-1.11.3.jar;C:\Users\Jarek\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Jarek\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.3\junit-jupiter-api-5.11.3.jar;C:\Users\Jarek\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Jarek\.m2\repository\org\junit\platform\junit-platform-commons\1.11.3\junit-platform-commons-1.11.3.jar;C:\Users\Jarek\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.3\junit-jupiter-params-5.11.3.jar;C:\Users\Jarek\Desktop\Java lab\Readers-And-Writers\multi-module\utils\target\utils-1.0.jar;C:\Users\Jarek\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Jarek\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Jarek\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Jarek\.m2\repository\org\apache\commons\commons-csv\1.9.0\commons-csv-1.9.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
@@ -18,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="PL"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\Jarek\AppData\Local\Temp\surefire13217673081146397858\surefirebooter-20250115005241053_3.jar C:\Users\Jarek\AppData\Local\Temp\surefire13217673081146397858 2025-01-15T00-52-37_351-jvmRun1 surefire-20250115005241053_1tmp surefire_0-20250115005241053_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Jarek\AppData\Local\Temp\surefire8738623365678670814\surefirebooter-20250116184150669_3.jar C:\Users\Jarek\AppData\Local\Temp\surefire8738623365678670814 2025-01-16T18-41-46_502-jvmRun1 surefire-20250116184150669_1tmp surefire_0-20250116184150669_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Jarek\Desktop\Java lab\Readers-And-Writers\multi-module\main\target\test-classes;C:\Users\Jarek\Desktop\Java lab\Readers-And-Writers\multi-module\main\target\classes;C:\Users\Jarek\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.3\junit-jupiter-engine-5.11.3.jar;C:\Users\Jarek\.m2\repository\org\junit\platform\junit-platform-engine\1.11.3\junit-platform-engine-1.11.3.jar;C:\Users\Jarek\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Jarek\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.3\junit-jupiter-api-5.11.3.jar;C:\Users\Jarek\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Jarek\.m2\repository\org\junit\platform\junit-platform-commons\1.11.3\junit-platform-commons-1.11.3.jar;C:\Users\Jarek\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.3\junit-jupiter-params-5.11.3.jar;C:\Users\Jarek\Desktop\Java lab\Readers-And-Writers\multi-module\utils\target\utils-1.0.jar;C:\Users\Jarek\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Jarek\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Jarek\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Jarek\.m2\repository\org\apache\commons\commons-csv\1.9.0\commons-csv-1.9.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Jarek\AppData\Local\Temp\surefire13217673081146397858\surefirebooter-20250115005241053_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Jarek\AppData\Local\Temp\surefire8738623365678670814\surefirebooter-20250116184150669_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -52,69 +49,114 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1250"/>
-    <property name="sonar.projectKey" value="readersWriters"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\sonarqube-25.1.0.102122\elasticsearch\lib\platform\windows-x64\zstd.dll;C:\Program Files\Java\jdk-17\bin;C:\Users\Jarek\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin;C:\Program Files\sonar-scanner-6.2.1.4610-windows-x64\bin;C:\Program Files\apache-maven-3.9.9\bin;C:\Users\Jarek\AppData\Local\GitHubDesktop\bin;C:\Users\Jarek\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\CLion 2023.3.4\bin;C:\Users\Jarek\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\sonarqube-25.1.0.102122\elasticsearch\lib\platform\windows-x64\zstd.dll;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk-17\bin;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Jarek\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin;C:\Program Files\sonar-scanner-6.2.1.4610-windows-x64\bin;C:\Program Files\apache-maven-3.9.9\bin;C:\Users\Jarek\AppData\Local\GitHubDesktop\bin;C:\Users\Jarek\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\CLion 2023.3.4\bin;C:\Users\Jarek\AppData\Roaming\npm;C:\Program Files\sonarqube-25.1.0.102122\elasticsearch\lib\platform\windows-x64\zstd.dll;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testLibrarySize" classname="pl.edu.agh.kis.pz1.LibraryTest" time="10.087">
-    <system-out><![CDATA[Reader-2 chce czytać.
-Reader-4 chce czytać.
-Reader-2 Dodany do kolejki
-Writer-1 chce pisać.
+  <testcase name="testLibrarySize" classname="pl.edu.agh.kis.pz1.LibraryTest" time="10.121">
+    <system-out><![CDATA[Reader-4 chce czytać.
 Reader-1 chce czytać.
+Reader-2 chce czytać.
+Reader-4 Dodany do kolejki
 Reader-5 chce czytać.
 Reader-3 chce czytać.
-Kolejka do czytelni: Reader-2
-Reader-3 Dodany do kolejki
-Kolejka do czytelni: Reader-2, Reader-3
-Reader-5 Dodany do kolejki
-Kolejka do czytelni: Reader-2, Reader-3, Reader-5
-Reader-1 Dodany do kolejki
-Kolejka do czytelni: Reader-2, Reader-3, Reader-5, Reader-1
+Writer-1 chce pisać.
+Kolejka do czytelni: Reader-4
+Czytelnik Reader-4 czyta. Czytelników w czytelni: 1 czytelnicy: [Reader-4]
 Writer-1 Dodany do kolejki
-Kolejka do czytelni: Reader-2, Reader-3, Reader-5, Reader-1, Writer-1
+Kolejka do czytelni: Writer-1
+Reader-3 Dodany do kolejki
+Kolejka do czytelni: Writer-1, Reader-3
+Reader-5 Dodany do kolejki
+Kolejka do czytelni: Writer-1, Reader-3, Reader-5
+Reader-2 Dodany do kolejki
+Kolejka do czytelni: Writer-1, Reader-3, Reader-5, Reader-2
+Reader-1 Dodany do kolejki
+Kolejka do czytelni: Writer-1, Reader-3, Reader-5, Reader-2, Reader-1
+Czytelnik Reader-4 WYCHODZI Czytelników w czytelni: 0czytelnicy:[]
+Reader-4 chce czytać.
 Reader-4 Dodany do kolejki
-Kolejka do czytelni: Reader-2, Reader-3, Reader-5, Reader-1, Writer-1, Reader-4
-]]></system-out>
-  </testcase>
-  <testcase name="testAddReaderToLibraryWithThreads" classname="pl.edu.agh.kis.pz1.LibraryTest" time="3.014">
-    <system-out><![CDATA[Reader-1 chce czytać.
+Kolejka do czytelni: Writer-1, Reader-3, Reader-5, Reader-2, Reader-1, Reader-4
+Pisarz Writer-1 pisze. W bibliotece: [Writer-1]
+Pisarz Writer-1 kończy pisanie.  W bibliotece: [Writer-1]
+Writer-1 chce pisać.
+Writer-1 Dodany do kolejki
+Kolejka do czytelni: Reader-3, Reader-5, Reader-2, Reader-1, Reader-4, Writer-1
+Czytelnik Reader-3 czyta. Czytelników w czytelni: 1 czytelnicy: [Reader-3]
+Czytelnik Reader-5 czyta. Czytelników w czytelni: 2 czytelnicy: [Reader-3, Reader-5]
+Czytelnik Reader-2 czyta. Czytelników w czytelni: 3 czytelnicy: [Reader-3, Reader-5, Reader-2]
+Czytelnik Reader-1 czyta. Czytelników w czytelni: 4 czytelnicy: [Reader-3, Reader-5, Reader-2, Reader-1]
+Czytelnik Reader-1 WYCHODZI Czytelników w czytelni: 3czytelnicy:[Reader-3, Reader-5, Reader-2]
+Reader-1 chce czytać.
 Reader-1 Dodany do kolejki
-Kolejka do czytelni: Reader-1
-Reader-1 może wchodzić
-Czytelnik czyta. Czytelników w czytelni: 1 czytelnicy:[Reader-1]
-]]></system-out>
-  </testcase>
-  <testcase name="testMaxReadersInLibraryWithThreads" classname="pl.edu.agh.kis.pz1.LibraryTest" time="2.013">
-    <system-out><![CDATA[Reader-1 chce czytać.
-Reader-1 Dodany do kolejki
-Kolejka do czytelni: Reader-1
+Kolejka do czytelni: Reader-4, Writer-1, Reader-1
+Czytelnik Reader-4 czyta. Czytelników w czytelni: 4 czytelnicy: [Reader-3, Reader-5, Reader-2, Reader-4]
+Czytelnik Reader-4 WYCHODZI Czytelników w czytelni: 3czytelnicy:[Reader-3, Reader-5, Reader-2]
+Reader-4 chce czytać.
+Reader-4 Dodany do kolejki
+Kolejka do czytelni: Writer-1, Reader-1, Reader-4
+Czytelnik Reader-3 WYCHODZI Czytelników w czytelni: 2czytelnicy:[Reader-5, Reader-2]
+Reader-3 chce czytać.
+Reader-3 Dodany do kolejki
+Kolejka do czytelni: Writer-1, Reader-1, Reader-4, Reader-3
+Czytelnik Reader-2 WYCHODZI Czytelników w czytelni: 1czytelnicy:[Reader-5]
 Reader-2 chce czytać.
 Reader-2 Dodany do kolejki
-Reader-3 chce czytać.
-Kolejka do czytelni: Reader-1, Reader-2
-Reader-3 Dodany do kolejki
-Kolejka do czytelni: Reader-1, Reader-2, Reader-3
-Reader-4 chce czytać.
-Reader-4 Dodany do kolejki
-Kolejka do czytelni: Reader-1, Reader-2, Reader-3, Reader-4
+Kolejka do czytelni: Writer-1, Reader-1, Reader-4, Reader-3, Reader-2
+Czytelnik Reader-5 WYCHODZI Czytelników w czytelni: 0czytelnicy:[]
 Reader-5 chce czytać.
 Reader-5 Dodany do kolejki
-Kolejka do czytelni: Reader-1, Reader-2, Reader-3, Reader-4, Reader-5
-Reader-6 chce czytać.
-Reader-6 Dodany do kolejki
-Kolejka do czytelni: Reader-1, Reader-2, Reader-3, Reader-4, Reader-5, Reader-6
-Czytelnik wychodzi.Reader-1 Czytelników w czytelni: 0czytelnicy:[]
+Kolejka do czytelni: Writer-1, Reader-1, Reader-4, Reader-3, Reader-2, Reader-5
+Pisarz Writer-1 pisze. W bibliotece: [Writer-1]
+Pisarz Writer-1 kończy pisanie.  W bibliotece: [Writer-1]
+Writer-1 chce pisać.
+Writer-1 Dodany do kolejki
+Kolejka do czytelni: Reader-1, Reader-4, Reader-3, Reader-2, Reader-5, Writer-1
+Czytelnik Reader-1 czyta. Czytelników w czytelni: 1 czytelnicy: [Reader-1]
+Czytelnik Reader-1 WYCHODZI Czytelników w czytelni: 0czytelnicy:[]
 Reader-1 chce czytać.
 Reader-1 Dodany do kolejki
-Kolejka do czytelni: Reader-1
-Reader-1 może wchodzić
-Czytelnik czyta. Czytelników w czytelni: 1 czytelnicy:[Reader-1]
+Kolejka do czytelni: Reader-4, Reader-3, Reader-2, Reader-5, Writer-1, Reader-1
+Czytelnik Reader-4 czyta. Czytelników w czytelni: 1 czytelnicy: [Reader-4]
+Czytelnik Reader-4 WYCHODZI Czytelników w czytelni: 0czytelnicy:[]
+Reader-4 chce czytać.
+Czytelnik Reader-3 czyta. Czytelników w czytelni: 1 czytelnicy: [Reader-3]
+Czytelnik Reader-2 czyta. Czytelników w czytelni: 2 czytelnicy: [Reader-3, Reader-2]
+Czytelnik Reader-5 czyta. Czytelników w czytelni: 3 czytelnicy: [Reader-3, Reader-2, Reader-5]
+Reader-4 Dodany do kolejki
+Kolejka do czytelni: Writer-1, Reader-1, Reader-4
+Czytelnik Reader-5 WYCHODZI Czytelników w czytelni: 2czytelnicy:[Reader-3, Reader-2]
+Reader-5 chce czytać.
+Reader-5 Dodany do kolejki
+Kolejka do czytelni: Writer-1, Reader-1, Reader-4, Reader-5
+Czytelnik Reader-2 WYCHODZI Czytelników w czytelni: 1czytelnicy:[Reader-3]
+Reader-2 chce czytać.
+Reader-2 Dodany do kolejki
+Kolejka do czytelni: Writer-1, Reader-1, Reader-4, Reader-5, Reader-2
+Czytelnik Reader-3 WYCHODZI Czytelników w czytelni: 0czytelnicy:[]
+Reader-3 chce czytać.
+Reader-3 Dodany do kolejki
+Kolejka do czytelni: Writer-1, Reader-1, Reader-4, Reader-5, Reader-2, Reader-3
+Pisarz Writer-1 pisze. W bibliotece: [Writer-1]
+Writer-1 został przerwany.
+Reader-4 został przerwany.
+Reader-1 został przerwany.
+Reader-3 został przerwany.
+Reader-2 został przerwany.
+Reader-5 został przerwany.
 ]]></system-out>
   </testcase>
-  <testcase name="testWriterExclusivityInConsoleOutput(int, int)[1]" classname="pl.edu.agh.kis.pz1.LibraryTest" time="11.036"/>
+  <testcase name="testAddReaderToLibraryWithThreads" classname="pl.edu.agh.kis.pz1.LibraryTest" time="0.51">
+    <system-out><![CDATA[Reader-1 chce czytać.
+Reader-1 Dodany do kolejki
+Kolejka do czytelni: Reader-1
+Czytelnik Reader-1 czyta. Czytelników w czytelni: 1 czytelnicy: [Reader-1]
+Reader-1 został przerwany.
+]]></system-out>
+  </testcase>
+  <testcase name="testWriterExclusivityInConsoleOutput(int, int)[1]" classname="pl.edu.agh.kis.pz1.LibraryTest" time="12.098"/>
+  <testcase name="testWriterExclusivityInConsoleOutput(int, int)[2]" classname="pl.edu.agh.kis.pz1.LibraryTest" time="11.534"/>
 </testsuite>

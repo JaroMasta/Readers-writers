@@ -66,6 +66,18 @@
                     <artifactId>sonar-maven-plugin</artifactId>
                     <version>3.9.1.2184</version>
                 </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-jar-plugin</artifactId>
+                    <version>3.2.0</version>
+                    <configuration>
+                        <archive>
+                            <manifest>
+                                <mainClass>pl.edu.agh.kis.pz1.Main</mainClass>
+                            </manifest>
+                        </archive>
+                    </configuration>
+                </plugin>
             </plugins>
         </pluginManagement>
     </build>
