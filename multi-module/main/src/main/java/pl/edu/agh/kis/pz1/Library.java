@@ -4,7 +4,15 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 import java.util.concurrent.Semaphore;
-
+/**
+ * Represents a library resource used in the readers and writers problem.
+ * Ensures synchronization for readers and writers accessing the resource.
+ *
+ * Constraints:
+ * - At most 5 readers can access the library simultaneously.
+ * - Only one writer can access the library at a time, and no readers are allowed during writing.
+ * - Neither readers nor writers will starve.
+ */
 public class Library {
     private final Semaphore readerSemaphore = new Semaphore(5); // Max 5 czytelników
     private final Semaphore libraryAccess = new Semaphore(1, true);

@@ -3,6 +3,17 @@ package pl.edu.agh.kis.pz1;
 import java.util.Scanner;
 
 public class Main {
+    /**
+     * The entry point of the readers and writers problem simulation.
+     *
+     * Functionality:
+     * - Initializes the library resource.
+     * - Creates threads for readers and writers.
+     * - Starts and manages the simulation.
+     *
+     * Usage:
+     * Run the program with optional command-line arguments specifying the number of readers and writers.
+     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
