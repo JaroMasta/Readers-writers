@@ -1,5 +1,7 @@
 # Project: Readers and Writers
-
+# TODO:
+This implementation is very defensive, try using built-in waiting in fair semaphore,
+do not wait in requestWriting/requestReading instead rely on fair semaphore (it implements a FIFO queue)
 ## 1. Description of the Implemented Algorithm
 
 The project implements the classical synchronization problem known as the "Readers and Writers Problem". The solution is based on the following rules:

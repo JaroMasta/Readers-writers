@@ -40,7 +40,23 @@ class LibraryTest {
         }
         threads.clear();
     }
+    @Test
+    void testRequestAndStartReading() throws InterruptedException {
+        Reader reader = new Reader(library,"Reader1");
+        threads.add( new Thread(() -> {
+            try {
+                library.requestReading(reader);
+                library.startReading(reader);
+                library.finishReading(reader);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }) );
 
+        cleanUp(threads);
+
+        assertTrue(library.getInLibrary().isEmpty());
+    }
 
 
     @ParameterizedTest
